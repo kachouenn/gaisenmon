@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* 黒い縁取り */
+.text-outline-black {
+  text-shadow: 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
+    -2px -2px 0 #000;
+}
+
+/* 赤い縁取り */
+.text-outline-red {
+  text-shadow: 2px 2px 0 #f00, -2px 2px 0 #f00, 2px -2px 0 #f00,
+    -2px -2px 0 #f00;
+}
